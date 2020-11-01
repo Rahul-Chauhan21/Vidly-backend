@@ -10,3 +10,8 @@ Task 2:
 Refactor application & move all the routes to the route folder.
   - Add Genres route
   - Add Home route
+
+Task 3:
+Work with MongoDB and Mongoose.
+  - Get rid of dummy data 
+  - Use MongoDB database for every route handler
