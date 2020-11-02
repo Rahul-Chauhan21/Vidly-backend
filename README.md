@@ -15,3 +15,9 @@ Task 3:
 Work with MongoDB and Mongoose.
   - Get rid of dummy data 
   - Use MongoDB database for every route handler
+
+Task 4:
+Build the Customers API and Restructure application
+  - Create endpoint to manage Customers with some properties.
+  - Restructure project to ensure single responsiblity principle
+    -eg Customers Module should ensure only managing routes and not the structure of a Customer.
