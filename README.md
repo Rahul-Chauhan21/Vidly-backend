@@ -21,3 +21,7 @@ Build the Customers API and Restructure application
   - Create endpoint to manage Customers with some properties.
   - Restructure project to ensure single responsiblity principle
     -eg Customers Module should ensure only managing routes and not the structure of a Customer.
+
+Task 5:
+Build the Movies API
+  - Embed a genre document inside the movie to optimise query performance.
