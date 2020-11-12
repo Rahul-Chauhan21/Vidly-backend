@@ -25,3 +25,8 @@ Build the Customers API and Restructure application
 Task 5:
 Build the Movies API
   - Embed a genre document inside the movie to optimise query performance.
+
+Task 6:
+ Build the Rentals API
+  - Create a rental schema with customer property defined as a custom schema.
+  - Create endpoints to manage Rentals.
