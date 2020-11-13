@@ -16,12 +16,12 @@ router.post("/", async (req, res) => {
     return res.status(400).send(error.details[0].message);
   }
   //send added genre back
-  let genre = new Genre({
+  const genre = new Genre({
     name: req.body.name,
   });
   try {
     await genre.validate();
-    genre = await genre.save();
+    await genre.save();
     res.send(genre);
   } catch (ex) {
     for (field in ex.errors) {
