@@ -1,3 +1,4 @@
+const auth = require("../middleware/auth");
 const { Movie, validateMovie } = require("../models/movie");
 const mongoose = require("mongoose");
 const { Genre } = require("../models/genre");
